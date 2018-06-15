@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   #counter = name_hash.length
   if name_hash == {}
       return nil
-  end
+  else
   name_hash.each do |k, v|
     
  # primer = v
@@ -14,6 +14,6 @@ def key_for_min_value(name_hash)
    #   primer
    #   counter += 1 
     end
- # end
+  end
  # primer
 end
